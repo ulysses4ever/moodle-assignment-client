@@ -8,8 +8,8 @@
 #                             NOTE: if omitted or - given we read stdin.
 #   -i ID   or --id ID     -- ID of a assignment to be edited (you may
 #                             get one from address bar in a browser).
-#   -t TOK  or --token TOK -- security token. You may get one 
-#                             from Ulysses.
+#   -t TOK  or --token TOK -- security token. 
+#                             Obtain this from your Moodle admin.
 #   -h      or --help      -- help message (optional).
 #
 # Requires Python 2.7.
