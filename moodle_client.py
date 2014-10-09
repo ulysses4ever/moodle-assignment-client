@@ -30,7 +30,7 @@ parser.add_argument('-t', '--token', dest='token',
                    required=True, help='Authorization token')
 args = parser.parse_args()
 
-domainname = 'http://edu.mmcs.sfedu.ru'
+domainname = 'http://your.moodle-domain.com'
 command = '/webservice/xmlrpc/server.php?wstoken=';
 
 srv = xmlrpclib.ServerProxy(domainname + command + args.token)
